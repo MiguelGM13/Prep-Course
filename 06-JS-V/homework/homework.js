@@ -23,9 +23,6 @@ function crearUsuario() {
 
   return Usuario;
 
-
-
-
 }
 
 function agregarMetodoPrototype(Constructor) {
@@ -68,12 +65,8 @@ String.prototype.reverse = function() {
     //   Domicilio: 'Saavedra 123'
     //  }
 
-
-
-
-
   class Persona {
-    constructor(/*Escribir los argumentos que recibe el constructor*/) {
+    constructor(nombre, apellido, edad, domicilio) {
       // Crea el constructor:
 
 
