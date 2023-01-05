@@ -60,7 +60,7 @@ function eliminarPropiedad (objeto, unaPropiedad) {
   // Devuelve el objeto
   // Tu código:
 
-  delete objeto[propiedad];
+  delete objeto[unaPropiedad];
 
   return objeto;
 
@@ -140,9 +140,10 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // Tu código:
-usuario.agregarAmigo.push(nuevoAmigo);
-return usuario;
 
+  usuario.amigos.push(nuevoAmigo);
+
+  return usuario;
 
 
 
